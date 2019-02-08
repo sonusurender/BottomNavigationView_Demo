@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bottom Navigation View Demo</string>
+    <string name="default_button">Default Bottom Navigation View</string>
+    <string name="custom_button">Custom Bottom Navigation View</string>
+    <string name="message">Message</string>
+    <string name="home">Home</string>
+    <string name="notification">Notification</string>
+    <string name="profile">Profile</string>
+    <string name="more_menu">3+ Menu Items Navigation View</string>
+</resources>

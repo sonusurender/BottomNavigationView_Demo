@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bottomnavigationview_demo.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/default_navigation_view_button"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/theme_selector"
+        android:text="@string/default_button"
+        android:onClick="defaultBottomNavigationView"
+        android:textColor="@android:color/white" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/custom_navigation_view_button"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:onClick="customBottomNavigationView"
+        android:background="@drawable/theme_selector"
+        android:text="@string/custom_button"
+        android:textColor="@android:color/white" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/more_navigation_view_button"
+        android:layout_width="match_parent"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:onClick="moreMenuItemsBottomNavigationView"
+        android:layout_height="wrap_content"
+        android:background="@drawable/theme_selector"
+        android:text="@string/more_menu"
+        android:textColor="@android:color/white" />
+</LinearLayout>
